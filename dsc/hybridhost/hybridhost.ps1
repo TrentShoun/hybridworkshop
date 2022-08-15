@@ -248,7 +248,7 @@ configuration HybridHost
             SetScript  = {
                 $ssuSearchString = "Servicing Stack Update for Azure Stack HCI, version 21H2 for x64-based Systems"
                 $ssuID = "Azure Stack HCI"
-                # $ssuUpdate = Get-MSCatalogUpdate -Search $ssuSearchString | Where-Object Products -eq $ssuID | Select-Object -First 1
+                $ssuUpdate = Get-MSCatalogUpdate -Search $ssuSearchString | Where-Object Products -eq $ssuID | Select-Object -First 1
                 # $ssuUpdate | Save-MSCatalogUpdate -Destination $using:ssuPath # commenting in the meantime (deployment error)
             }
 
@@ -769,7 +769,7 @@ configuration HybridHost
 
                 <#
                 Convert-Wim2Vhd -DiskLayout UEFI -SourcePath $using:azsHCIISOLocalPath -Path $using:azsHciVhdPath `
-                #>
+                   #>
 
                 # Need to wait for disk to fully unmount
                 While ((Get-Disk).Count -gt 2) {
