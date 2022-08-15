@@ -249,7 +249,6 @@ configuration HybridHost
                 $ssuSearchString = "Servicing Stack Update for Azure Stack HCI, version 21H2 for x64-based Systems"
                 $ssuID = "Azure Stack HCI"
                 $ssuUpdate = Get-MSCatalogUpdate -Search $ssuSearchString | Where-Object Products -eq $ssuID | Select-Object -First 1
-                # $ssuUpdate | Save-MSCatalogUpdate -Destination $using:ssuPath # commenting in the meantime (deployment error)
             }
 
             TestScript = {
@@ -270,7 +269,6 @@ configuration HybridHost
                 $cuSearchString = "Cumulative Update for Azure Stack HCI, version 21H2"
                 $cuID = "Azure Stack HCI"
                 $cuUpdate = Get-MSCatalogUpdate -Search $cuSearchString | Where-Object Products -eq $cuID | Where-Object Title -like "*$($cuSearchString)*" | Select-Object -First 1
-                # $cuUpdate | Save-MSCatalogUpdate -Destination $using:cuPath # commenting in the meantime (deployment error)
             }
 
             TestScript = {
@@ -760,7 +758,6 @@ configuration HybridHost
                 if ($ssu) {
                     Convert-WindowsImage -SourcePath $using:azsHCIISOLocalPath -SizeBytes 100GB -VHDPath $using:azsHciVhdPath `
                         -VHDFormat VHDX -VHDType Dynamic -VHDPartitionStyle GPT -TempDirectory $using:targetVMPath -Verbose
-                        #-VHDFormat VHDX -VHDType Dynamic -VHDPartitionStyle GPT -Package $using:ssuPath -TempDirectory $using:targetVMPath -Verbose
                 }
                 else {
                     Convert-WindowsImage -SourcePath $using:azsHCIISOLocalPath -SizeBytes 100GB -VHDPath $using:azsHciVhdPath `
