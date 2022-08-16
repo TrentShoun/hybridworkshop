@@ -136,6 +136,8 @@ Secondly, the **Deploy to Azure** button, when clicked, will take you directly t
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftrentshoun%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json "Deploy to Azure from trentsh repo")
 
+[![Deploy To Azure US Gov](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.svg?sanitize=true)](https://portal.azure.us/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftrentshoun%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json "Deploy to Azure Gov from trentsh repo")
+
 Upon clicking the **Deploy to Azure** button, enter the details, which should look something similar to those shown below, and click **Purchase**.
 
 ![Custom template deployment in Azure](/media/azure_vm_custom_template_new.png "Custom template deployment in Azure")
