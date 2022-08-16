@@ -126,7 +126,7 @@ Firstly, the **Visualize** button will launch the ARMVIZ designer view, where yo
 [![Visualize your template deployment](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fmattmcspirit%2Fhybridworkshop%2Fmain%2Fjson%2Fhybridhost.json "Visualize your template deployment")
 --->
 
-[![Visualize your template deployment](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Fcarlosmayol%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json  "Visualize your template deployment")
+[![Visualize your template deployment](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png)](http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2Ftrentshoun%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json  "Visualize your template deployment")
 
 
 Secondly, the **Deploy to Azure** button, when clicked, will take you directly to the Azure portal, and upon login, provide you with a form to complete. If you want to open this in a new tab, **hold CTRL** when you click the button.
@@ -134,7 +134,7 @@ Secondly, the **Deploy to Azure** button, when clicked, will take you directly t
 <!--- 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmattmcspirit%2Fhybridworkshop%2Fmain%2Fjson%2Fhybridhost.json "Deploy to Azure from Matt's") --->
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcarlosmayol%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json "Deploy to Azure from Carlos's")
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftrentshoun%2Fhybridworkshop%2F21H2%2Fjson%2Fhybridhost.json "Deploy to Azure from trentsh repo")
 
 
 Upon clicking the **Deploy to Azure** button, enter the details, which should look something similar to those shown below, and click **Purchase**.
