@@ -132,7 +132,7 @@
     "variables": {
         "dataDisksCount": 8,
         "dscUri": "https://github.com/TrentShoun/hybridworkshop/raw/21H2/dsc/hybridhost.zip",
-        "artifactsLocation": "https://raw.githubusercontent.com/TrentShoun/hybridworkshop/raw/21H2/",
+        "artifactsLocation": "https://raw.githubusercontent.com/TrentShoun/hybridworkshop/21H2/",
         "randomGUID": "[substring(uniqueString(subscription().subscriptionId, resourceGroup().id, parameters('virtualMachineName')),0,6)]",
         "dnsNameForPublicIP": "[toLower(concat(parameters('virtualMachineName'), variables('randomGUID')))]",
         "environment": "AD Domain",
